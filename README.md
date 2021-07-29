@@ -1,4 +1,4 @@
-# sdocx-to-txt-python-converter
+# sdocxPythonConverter
 Python script to convert sdocx file (Samsung notes) into txt
 
 Usage:
