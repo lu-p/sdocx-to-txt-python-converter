@@ -10,7 +10,7 @@ def listToFile(listOfStrings, fileName, totalFile):
 
     count=0
     newLine=False
-    with open(totalFile, "a", encoding='ANSI') as f:
+    with open(totalFile, "a", encoding='cp1252', errors='replace') as f:
         # f.write(usefulName)
         
         # Write date of notes from fileName

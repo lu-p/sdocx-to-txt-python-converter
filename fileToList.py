@@ -7,7 +7,7 @@ def fileToList(fileName):
 
     try:
         testoFile=[]
-        with open(fileName, "r", encoding='ANSI') as f:
+        with open(fileName, "r", encoding='cp1252', errors='replace') as f:
             for line in f:
                 testoFile.append(line)
                 
